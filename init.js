@@ -8,6 +8,11 @@ var debug = require('debug')('scrat:init'),
     path = require('path'),
     localPath = path.join(__dirname, 'node_modules');
 
+// 遍历module需要？找generator
+// prepend ./node_modules to NODE_PATH
+process.env.NODE_PATH = process.env.NODE_PATH ?
+    localPath + ':' + process.env.NODE_PATH : localPath;
+
 function log(type, msg, color) {
     color = color || 'grey';
     var pad = Array(Math.max(0, 10 - type.length) + 1).join(' '),
