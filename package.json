@@ -1,0 +1,24 @@
+{
+  "name": "lol-command-init",
+  "version": "0.0.0",
+  "description": "脚手架！德玛西亚万岁！",
+  "main": "init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chyingp/lol-command-init"
+  },
+  "keywords": [
+    "fis",
+    "lol",
+    "脚手架"
+  ],
+  "author": "程序猿小卡",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chyingp/lol-command-init/issues"
+  },
+  "homepage": "https://github.com/chyingp/lol-command-init"
+}
