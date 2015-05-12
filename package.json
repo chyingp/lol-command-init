@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/chyingp/lol-command-init/issues"
   },
-  "homepage": "https://github.com/chyingp/lol-command-init"
+  "homepage": "https://github.com/chyingp/lol-command-init",
+  "dependencies": {
+    "colors": "^1.1.0",
+    "debug": "^2.2.0",
+    "generator-lol": "^0.1.1",
+    "generator-mocha": "^0.1.7"
+  }
 }
