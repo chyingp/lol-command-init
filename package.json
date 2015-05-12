@@ -1,6 +1,6 @@
 {
   "name": "lol-command-init",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "脚手架！德玛西亚万岁！",
   "main": "init.js",
   "scripts": {
